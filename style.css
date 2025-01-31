@@ -2,6 +2,7 @@
     margin: 0;
     background-color: rgb(7, 7, 74);
     color: rgb(130, 130, 190);
+    border-radius: 5px;
 }
 
 body {
@@ -23,11 +24,13 @@ form {
     
 }
 
+/* Parent Div */
 .pin_input_div {
     display: flex;
     flex-direction: column;
     /* Needs to be set at a set width */
     width: 25em;
+    gap: 1rem;
 }
 
 /* Border for ALL inputs */
@@ -38,6 +41,7 @@ input {
 /* Text input */
 .input {
     width: 100%;
+    padding: .5rem;
 }
 
 .pin_puts {
@@ -49,8 +53,9 @@ input {
 
 /* Each Pin Box (still needs to be given a set width and height */
 .pin {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
 }
 
 .submit {
