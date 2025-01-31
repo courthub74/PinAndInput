@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    background-color: rgb(7, 7, 74);
+    color: rgb(130, 130, 190);
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    border: 2px solid rgb(130, 130, 190);
+    padding: 2em;
+    
+}
+
+.pin_input_div {
+    display: flex;
+    flex-direction: column;
+    /* Needs to be set at a set width */
+    width: 25em;
+}
+
+/* Border for ALL inputs */
+input {
+    border: 2px solid rgb(130, 130, 190);
+}
+
+/* Text input */
+.input {
+    width: 100%;
+}
+
+.pin_puts {
+    width: 100%;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-between;
+}
+
+/* Each Pin Box (still needs to be given a set width and height */
+.pin {
+    width: 60px;
+    height: 60px;
+}
+
+.submit {
+    background-color: rgb(130, 130, 190);
+    color: white;
+    border: none;
+}
